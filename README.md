@@ -28,10 +28,12 @@ To develop an environment consisting of a mobile tower as the start and the hous
 {1} Moving Right
 
 ### Reward Function
+
 * +1 - If the goal is reached
 * 0 - Otherwise
 
 ### Graphical Representation
+
 ![reinfo exp1 img](https://github.com/Lakshmipriya-P-AI/mdp-representation/assets/93427923/28f63886-7129-42dd-9e6f-3e6f4a16b1b4)
 
 
