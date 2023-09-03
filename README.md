@@ -18,12 +18,13 @@ To develop an environment consisting of a mobile tower as the start and the hous
 ### Sample State
 4
 
-### Action Space
+### Action Space:
+*
 {0) Moving Up
 {1} Moving Right
 {2} Moving Down
 {3} Moving Left
-
+*
 ### Sample Action
 Write your answer here
 
