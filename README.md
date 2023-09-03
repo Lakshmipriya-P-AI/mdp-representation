@@ -19,9 +19,8 @@ To develop an environment consisting of a mobile tower as the start and the hous
 4
 
 ### Action Space:
-*
-{0) Moving Up
-{1} Moving Right
+*{0) Moving Up
+*{1} Moving Right
 {2} Moving Down
 {3} Moving Left
 *
