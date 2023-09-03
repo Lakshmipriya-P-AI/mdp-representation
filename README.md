@@ -20,10 +20,10 @@ To develop an environment consisting of a mobile tower as the start and the hous
 
 ### Action Space:
 * {0) Moving Up
-{1} Moving Right
-{2} Moving Down
-{3} Moving Left
-*
+* {1} Moving Right
+* {2} Moving Down
+* {3} Moving Left
+
 ### Sample Action
 Write your answer here
 
