@@ -1,37 +1,108 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To represent a Markov Decision Process(MDP) problem in the following ways.
+   1. Text representation
+   2. Graphical representation
+   3. Python - Dictonary representation
 
 ## PROBLEM STATEMENT:
 
 ### Problem Description
-Write your answer here
+Problem Description
+To develop an environment consisting of a mobile tower as the start and the house as the goal. The aim is to make sure the network signals reaches the house.
 
 ### State Space
-Write your answer here
+{0,1,2,3,4,5,6,7}
 
 ### Sample State
-Write your answer here
+4
 
 ### Action Space
-Write your answer here
+{0) Moving Up
+{1} Moving Right
+{2} Moving Down
+{3} Moving Left
 
 ### Sample Action
 Write your answer here
 
 ### Reward Function
-Write your answer here
+{1} Moving Right
 
 ### Graphical Representation
-Write your answer here
+![reinfo exp1 img](https://github.com/Lakshmipriya-P-AI/mdp-representation/assets/93427923/28f63886-7129-42dd-9e6f-3e6f4a16b1b4)
+
 
 ## PYTHON REPRESENTATION:
-Write your code here
+```
+P = {
+    0 : {
+        0 : [(1.0, 0, 0.0, False)],
+        1 : [(1.0, 1, 0.0, False)],
+        2 : [(1.0, 2, 0.0, False)],
+        3 : [(1.0, 0, 0.0, False)]
+    },
+
+    1 : {
+        0 : [(1.0, 1, 0.0, False)],
+        1 : [(1.0, 1, 0.0, False)],
+        2 : [(1.0, 3, 0.0, False)],
+        3 : [(1.0, 0, 0.0, False)]
+    },
+
+    2 : {
+        0 : [(1.0, 0, 0.0, False)],
+        1 : [(1.0, 3, 0.0, False)],
+        2 : [(1.0, 2, 0.0, False)],
+        3 : [(1.0, 2, 0.0, False)]
+    },
+
+    3 : {
+        0 : [(1.0, 1, 0.0, False)],
+        1 : [(1.0, 3, 0.0, False)],
+        2 : [(1.0, 4, 0.0, False)],
+        3 : [(1.0, 2, 0.0, False)]
+    },
+
+    4 : {
+        0 : [(1.0, 3, 0.0, False)],
+        1 : [(1.0, 5, 0.0, False)],
+        2 : [(1.0, 6, 0.0, False)],
+        3 : [(1.0, 4, 0.0, False)]
+    },
+
+    5 : {
+        0 : [(1.0, 5, 0.0, False)],
+        1 : [(1.0, 5, 0.0, False)],
+        2 : [(1.0, 7, 1.0, True)],
+        3 : [(1.0, 4, 0.0, False)]
+    },
+
+    6 : {
+        0 : [(1.0, 4, 0.0, False)],
+        1 : [(1.0, 7, 1.0, True)],
+        2 : [(1.0, 6, 0.0, False)],
+        3 : [(1.0, 6, 0.0, False)]
+    },
+
+    7 : {
+        0 : [(1.0, 7, 1.0, True)],
+        1 : [(1.0, 7, 1.0, True)],
+        2 : [(1.0, 7, 1.0, True)],
+        3 : [(1.0, 7, 1.0, True)]
+    }
+}
+```
 
 ## OUTPUT:
-Write your Python output here
+
+![265270435-20ef6215-f394-4aa0-9c3a-ac15494e6d09](https://github.com/Lakshmipriya-P-AI/mdp-representation/assets/93427923/1e28f004-7146-4462-ab79-a5d99414631c)
 
 ## RESULT:
-Write your output here
+Thus a real world problem is represented as Markov Decision Problem in the following ways successfully:
+
+  1. Text Representation
+  2. Graphical Representation
+  3. Python Representation
 
